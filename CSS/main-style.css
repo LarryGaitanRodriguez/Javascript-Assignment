@@ -1,0 +1,71 @@
+body{
+    background-color:#e4f3eb;
+}
+
+.header{
+    padding: 1rem;
+}
+.header img{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+.hamburger-menu{
+    float: right;
+    font-size: 1.8rem;
+    padding-right: 0.5rem;
+    color:#085B20;
+    z-index: 20;
+    cursor: pointer;
+}
+.body-content{
+    margin-top: 3rem;
+}
+#carousel{
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+    width : 50rem;
+    margin: auto;
+}
+
+.carousel-img{
+    text-align: center;
+    margin: auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.left-control{
+    width: 5%;
+    font-size: 3.5rem;
+    transform: translate(-2px,45%);
+}
+.right-control{
+    width: 5%;
+    font-size: 3.5rem;
+    transform: translate(2px,45%);
+}
+.right-control i{
+    cursor: pointer;
+}
+.left-control i{
+    cursor: pointer;
+}
+.carousel-img img{
+    width: 100%;
+}
+#about{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    line-height: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+#about h1{
+    text-align: center;
+}
