@@ -1,7 +1,14 @@
 body{
     background-color:#e4f3eb;
 }
-
+a{
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{
+    transition: 0.4s;
+    color: green;
+}
 .header{
     padding: 1rem;
 }
@@ -12,12 +19,37 @@ body{
 }
 
 .hamburger-menu{
-    float: right;
+    position: absolute;
+    right: 2%;
     font-size: 1.8rem;
     padding-right: 0.5rem;
     color:#085B20;
-    z-index: 20;
     cursor: pointer;
+}
+
+#floating-menu{
+    position: fixed;
+    top: 0;
+    right:0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: rgba(0,0,0,0.7);
+    transition: 0.5s;
+}
+#floating-content{
+    display: none;
+    color:white;
+    position: relative;
+    top: 30%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+#floating-content li{
+    text-align: center;
+    list-style-type: none;
+    padding: 0.3rem;
 }
 .body-content{
     margin-top: 3rem;
@@ -43,12 +75,12 @@ body{
 .left-control{
     width: 5%;
     font-size: 3.5rem;
-    transform: translate(-2px,45%);
+    transform: translate(-4px,45%);
 }
 .right-control{
     width: 5%;
     font-size: 3.5rem;
-    transform: translate(2px,45%);
+    transform: translate(4px,45%);
 }
 .right-control i{
     cursor: pointer;

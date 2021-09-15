@@ -6,21 +6,22 @@ $(document).ready(function(){
     //Hamburger menu rotation and menu expantion
     var isRotated = false;
     $(".hamburger-menu").click( () => {
-        console.log("is rotated:"+isRotated)
         if(isRotated == false){
-            console.log("In rotationg 90")
             $(".hm-img").css("transition","0.4s");
             $(".hm-img").css("transform","rotate(90deg)");
-            
+            $("#floating-menu").css("height","100%");
+            $("#floating-content").css("display","block");
             isRotated = true;
         }else if(isRotated == true){
             $(".hm-img").css("transition","0.4s");
             $(".hm-img").css("transform","rotate(0deg)");
+            $("#floating-menu").css("height","0%");
+            $("#floating-content").css("display","none");
             isRotated = false;
-            console.log("rotating back")
-            console.log("New isRotated: "+isRotated)
         }
+        console.log("is rotated:"+isRotated)
     });
+ 
 
     //Carousel Buttons and Img rotation.
     const addrList = [
