@@ -101,3 +101,49 @@ a:hover{
 #about h1{
     text-align: center;
 }
+
+#available{
+    font-family: 'Open Sans', sans-serif;
+    padding: 3rem;
+}
+
+#available h1{
+    text-align: center;
+}
+
+#available h2{
+    text-align: center;
+}
+.availableP{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+#weather-widget{
+    display: flex;
+    margin: auto;
+}
+
+.period{
+    width: 25%;
+    background-color: whitesmoke;
+    text-align: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.widget-header{
+    margin: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.widget-temperature{
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.widget-detail{
+    padding: 0.5rem;
+    font-size: rem;
+}

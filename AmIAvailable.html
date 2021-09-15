@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lake Lanier Website Development LLC</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="CSS/main-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <!--CDNS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <!--Local JS-->
+     <script src="JS/buttons.js"></script>
+     <script src="JS/NWSWidget.js"></script>
+</head>
+<body>
+    <div id="floating-menu">
+        <div id="floating-content">
+            <ul class="dont-display">
+                <li><a href="">About</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <!--Meny overlay!-->        
+        <div class="header">
+            <img src="img/default-monochrome-logo.svg" alt="Logo of Lake Lanier Web Development LLC">
+            <div class="hamburger-menu">
+                <i class="fas fa-bars hm-img"></i>
+            </div>
+        </div>
+
+        
+        <div class="body-content">
+            <div id="available">
+                <h1>
+                    Is Lanier Web Development available to take your novel project?
+                </h1>
+                <h2>
+                    Probably not.
+                </h2>
+                <p class="availableP">
+                    Our only employee at Lake Lanier Web Development is currently a University Student with Senioritis. Therefore the only times they can be available to take on your valuable projects is when there's a snow day. Thus refer to our in-house developed North Georgia Weather Widget to predict when our employee can take on projects.
+
+                </p>
+
+                <div id="weather-widget">
+                    <div class="period">
+                        <h3 id="1-name"class="widget-header">Period</h3>
+                        <img id="1-icon" src="https://api.weather.gov/icons/land/night/bkn?size=medium" alt="">
+                        <h4 id="1-temp" class="widget-temperature">Temperature F</h4>
+                        <p id="1-detail" class="widget-detail">A slight chance of showers and thunderstorms between 8am and noon, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 79. Southeast wind around 0 mph. Chance of precipitation is 50%</p>
+                    </div>
+                    <div class="period">
+                        <h3 id="2-name"class="widget-header">Period</h3>
+                        <img id="2-icon" src="https://api.weather.gov/icons/land/night/bkn?size=medium" alt="">
+                        <h4 id="2-temp" class="widget-temperature">Temperature F</h4>
+                        <p id="2-detail" class="widget-detail">A slight chance of showers and thunderstorms between 8am and noon, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 79. Southeast wind around 0 mph. Chance of precipitation is 50%</p>
+                    </div>
+                    <div class="period">
+                        <h3 id="3-name"class="widget-header">Period</h3>
+                        <img id="3-icon" src="https://api.weather.gov/icons/land/night/bkn?size=medium" alt="">
+                        <h4 id="3-temp" class="widget-temperature">Temperature F</h4>
+                        <p id="3-detail" class="widget-detail">A slight chance of showers and thunderstorms between 8am and noon, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 79. Southeast wind around 0 mph. Chance of precipitation is 50%</p>
+                    </div>
+                    <div class="period">
+                        <h3 id="4-name"class="widget-header">Period</h3>
+                        <img id="4-icon" src="https://api.weather.gov/icons/land/night/bkn?size=medium" alt="">
+                        <h4 id="4-temp" class="widget-temperature">Temperature F</h4>
+                        <p id="4-detail" class="widget-detail">A slight chance of showers and thunderstorms between 8am and noon, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 79. Southeast wind around 0 mph. Chance of precipitation is 50%</p>
+                    </div>
+                    <div class="period">
+                        <h3 id="5-name"class="widget-header">Period</h3>
+                        <img id="5-icon" src="https://api.weather.gov/icons/land/night/bkn?size=medium" alt="">
+                        <h4 id="5-temp" class="widget-temperature">Temperature F</h4>
+                        <p id="5-detail" class="widget-detail">A slight chance of showers and thunderstorms between 8am and noon, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 79. Southeast wind around 0 mph. Chance of precipitation is 50%</p>
+                    </div>
+                    <div class="period">
+                        <h3 id="6-name"class="widget-header">Period</h3>
+                        <img id="6-icon" src="https://api.weather.gov/icons/land/night/bkn?size=medium" alt="">
+                        <h4 id="6-temp" class="widget-temperature">Temperature F</h4>
+                        <p id="6-detail" class="widget-detail">A slight chance of showers and thunderstorms between 8am and noon, then a chance of showers and thunderstorms. Mostly cloudy, with a high near 79. Southeast wind around 0 mph. Chance of precipitation is 50%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
